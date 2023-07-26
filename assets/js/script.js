@@ -9,10 +9,6 @@ loginBtn.addEventListener("click", function(){
     let accessPass = passwordEl.value
     // console.log(accessUser, accessPass)
     if (accessUser == "admin01" && accessPass =="123"){
-        // console.log(`welcome ${accessUser}`)
-        welcome(accessUser)
+        console.log(`welcome ${accessUser}`)
     }
 })
-function welcome(greeting){
-    console.log(`welcome ${greeting}`)
-}
