@@ -12,6 +12,7 @@ loginBtn.addEventListener("click", function(){
         if (accessUser ==  accounts[i][0] && accessPass == accounts[i][1]){
                 alert(`welcome ${accessUser}`)
                 found = true
+                document.write(`hello`)
         }
     }
     if (found == false) {
