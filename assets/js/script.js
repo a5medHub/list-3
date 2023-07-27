@@ -21,7 +21,7 @@ loginBtn.addEventListener("click", function(){
         }
         if (found == false) {
             counter++
-            alert(`Invalid Username or Password`)
+            alert(`Invalid Username or Password\n you still have ${4-counter} attempt`)
         }
     }else{
         alert("Maximum Attempts Exceeded!")
