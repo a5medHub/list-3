@@ -14,7 +14,8 @@ loginBtn.addEventListener("click", function(){
             document.write(`<h1 style="text-align:center; color:blue; margin-top:50px;"> welcome 
                 <span style="font-weight:bold; color:red;">
                 ${accessUser.toUpperCase()}</span> </h1>`)
-                window.location.replace("login.html")
+                setTimeout(() => location.href='login.html', 2000); //redirect to
+                // window.location.replace("login.html")
 
         }
     }
